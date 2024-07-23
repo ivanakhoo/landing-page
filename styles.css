@@ -9,21 +9,21 @@ body {
     height:fit-content;
     display:flex;
     justify-content:space-between;
-    background-color:#1F2937;
+    background-color:black;
 }
 
 .TD {
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color:#1F2937;
+    background-color:black;
     align-items:center;
 }
 
 .TDLeft {
     display:flex;
     flex-direction:column;
-    padding:8px;
+    margin-bottom:20px;
 }
 
 .middlePortion {
@@ -31,6 +31,7 @@ body {
     flex-direction:column;
     background-color:white;
     gap:8px;
+    padding:12px;
 }
 
 .box-container {
@@ -46,8 +47,61 @@ body {
     padding:8px;
 }
 
-.darkBackground {
-    background-color:#1F2937;
+.quoteSection {
+    background-color:#E5E7EB;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:fit-content;
+    padding:40px;
+    gap:8px;
+}
+
+.quote {
+    width: 300px;
+    text-align:center;
+    font-size:36px;
+    font-style:italic;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: 900;
+}
+
+a {
+    color: #F9FAF8;
+    font-size:16px;
+    text-decoration:none;
+}
+
+p {
+    margin:2px 0;
+    padding: 6px;
+}
+
+.callToActionSection {
+    background-color:white;
+    height:fit-content;
+    padding:20px;
+}
+
+.colorBox {
+    background-color: #1F2937;
+    height:fit-content;
+    margin:20px 60px 20px 60px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.callToActionLeft {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:4px;
 }
 
 .mainText {
@@ -63,22 +117,25 @@ body {
 
 .link-container {
     display:flex;
-    padding:8px;
+    padding:6px;
     gap:12px;
+    margin-right:12px;
 }
 
-.headerLogoText {
+.callToActionText {
     font-size:24px;
     color:#F9FAF8;
 }
 
-.button, .callToActionBackgroundColor {
-    background-color: #3882F6;
+.callToActionDesc {
+    font-size:12px;
+    color:white;
 }
 
 .button {
     color:white;
     width:80px;
+    background-color: #1F2937;
 }
 
 .infoHeaderText {
@@ -88,12 +145,10 @@ body {
     text-align:center;
 }
 
-.quoteSectionBack {
-    background-color:#E5E7EB;
-}
-
-.quoteText {
-    font-size:36px;
-    font-style:italic;
-    color: #1F2937;
+.footer {
+    height:fit-content;
+    background-color:black;
+    text-align:center;
+    color:white;
+    padding:30px;
 }
