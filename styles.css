@@ -1,1 +1,46 @@
- 
+/* Styles */
+
+body {
+    display:flex;
+    flex-direction:column;
+} 
+
+.darkBackground {
+    background-color:#1F2937;
+}
+
+.mainText {
+    font: #F9FAF8;
+    font-size: 48px;
+    font-weight:bolder
+}
+
+.secondaryText, .headerLinkText {
+    font: #F9FAF8;
+    font-size:24px;
+}
+
+.headerLogoText {
+    font-size:24px;
+    color:#F9FAF8;
+}
+
+.buttonColor, .callToActionBackgroundColor {
+    color: #3882F6;
+}
+
+.infoHeaderText {
+    font-size:36px;
+    font-weight:bolder;
+    color: #1F2937;
+}
+
+.quoteSectionBack {
+    background-color:#E5E7EB;
+}
+
+.quoteText {
+    font-size:36px;
+    font-style:italic;
+    color: #1F2937;
+}
