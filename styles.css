@@ -5,19 +5,66 @@ body {
     flex-direction:column;
 } 
 
+.header {
+    height:fit-content;
+    display:flex;
+    justify-content:space-between;
+    background-color:#1F2937;
+}
+
+.TD {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:#1F2937;
+    align-items:center;
+}
+
+.TDLeft {
+    display:flex;
+    flex-direction:column;
+    padding:8px;
+}
+
+.middlePortion {
+    display:flex;
+    flex-direction:column;
+    background-color:white;
+    gap:8px;
+}
+
+.box-container {
+    display:flex;
+    flex-direction:row;
+    gap:16px;
+    justify-content:center;
+}
+
+.imgPair {
+    display:flex;
+    flex-direction:column;
+    padding:8px;
+}
+
 .darkBackground {
     background-color:#1F2937;
 }
 
 .mainText {
-    font: #F9FAF8;
+    color: #F9FAF8;
     font-size: 48px;
     font-weight:bolder
 }
 
 .secondaryText, .headerLinkText {
-    font: #F9FAF8;
+    color: #F9FAF8;
     font-size:24px;
+}
+
+.link-container {
+    display:flex;
+    padding:8px;
+    gap:12px;
 }
 
 .headerLogoText {
@@ -25,14 +72,20 @@ body {
     color:#F9FAF8;
 }
 
-.buttonColor, .callToActionBackgroundColor {
-    color: #3882F6;
+.button, .callToActionBackgroundColor {
+    background-color: #3882F6;
+}
+
+.button {
+    color:white;
+    width:80px;
 }
 
 .infoHeaderText {
     font-size:36px;
     font-weight:bolder;
     color: #1F2937;
+    text-align:center;
 }
 
 .quoteSectionBack {
